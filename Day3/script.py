@@ -36,11 +36,7 @@ for i, game in enumerate(games):
             if has_symbol==True:
                 game_point+=digit
                 game_result.append(digit)
-                # digit = 0
-                # has_symbol = False
-            # else:
-            #     digit = 0
-            #     has_symbol = False
+
             digit = 0
             has_symbol = False
 
